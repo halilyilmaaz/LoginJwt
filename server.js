@@ -7,8 +7,8 @@ const dotenv = require('dotenv');
 
 
 // IMPORT ROUTES
-const authRoute = require('./routes/auth');
-const postRoute = require('./routes/posts');
+const authRoute = require('./api/routes/auth');
+const postRoute = require('./api/routes/posts');
 
 dotenv.config();
 // DB CONNECT
